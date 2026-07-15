@@ -1,7 +1,6 @@
 import FogBackground from "./Fogbg";
 import LinkResult from "./LinkResult";
 
-
 const InputShortener = () => {
   return (
     <>
