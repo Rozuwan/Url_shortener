@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 
 const LinkResult = () => {
-  const [shortenLink, setSetshortenLink] = useState("Helskjhabdhibsahbdkhblo");
+  const [shortenLink, setshortenLink] = useState("Helskjhabdhibsahbdkhblo");
   const [copied, setCopied] = useState(false);
 
   //   toast function to copy
