@@ -1,6 +1,6 @@
 # URL Shortener
 
-[![Live](https://img.shields.io/badge/Live-roxlink.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://roxlink.vercel.app/)
+**Live:** [roxlink.vercel.app](https://roxlink.vercel.app/)
 
 A minimalist URL shortener built with React + Vite.
 
