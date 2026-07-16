@@ -14,7 +14,7 @@ flowchart LR
 
 ## Stack
 
-**React 19 · Vite · Tailwind CSS 4 · Axios · Sonner · Three.js/Vanta**
+**React 19 · Vite · Tailwind CSS 4 · Axios · Three.js/Vanta**
 
 ## Quick Start
 
