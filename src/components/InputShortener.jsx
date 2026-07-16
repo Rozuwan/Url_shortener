@@ -4,6 +4,7 @@ const InputShortener = ({ setInputValue, setSubmitted }) => {
   const [value, setValue] = useState("");
 
   const handleClick = () => {
+    if (!value.trim()) return;
     setInputValue(value);
     setSubmitted(true);
     setValue("");
