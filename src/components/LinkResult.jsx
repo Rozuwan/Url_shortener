@@ -3,7 +3,6 @@ import { toast } from "sonner";
 
 const LinkResult = ({ inputValue }) => {
   const [shortenLink, setshortenLink] = useState("");
-  
   const [copied, setCopied] = useState(false);
   const [loading, setLoading] = useState(false);
 
