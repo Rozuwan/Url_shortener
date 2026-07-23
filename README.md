@@ -1,27 +1,16 @@
-# URL Shortener
+<div align="center">
+  <img src="public/favicon.png" alt="logo" width="80" />
+  <h1>SHORTY</h1>
+  <p><a href="https://roxlink.vercel.app/">roxlink.vercel.app</a></p>
+</div>
 
-**Live:** [roxlink.vercel.app](https://roxlink.vercel.app/)
-
-A minimalist URL shortener — paste a long URL, get a short link, copy it in one click.
-
-```mermaid
-flowchart LR
-  A[Long URL] --> B[Shorten]
-  B --> C[Short Link]
-  C --> D[Copy]
-  D --> E[Done]
-```
+<p align="center">
+  <img src="src/assets/image.png" alt="screenshot" width="700" />
+</p>
 
 ## Stack
 
-**Frontend** — React · Vite · Tailwind  
-**API** — [shrtr.top](https://shrtr.top/) (third-party URL shortening)  
-**UI** — Vanta.js (animated background)
-
-## Features
-
-- Shorten any URL instantly
-- One-click copy to clipboard
+React · Vite · Tailwind · Vanta.js · Sonner · [shrtr.top](https://shrtr.top/) API
 
 ## Quick Start
 
@@ -30,19 +19,19 @@ npm install
 npm run dev
 ```
 
-## Project Structure
+## Structure
 
 ```
 src/
-├── main.jsx          Entry point
-├── App.jsx           Root component
-├── index.css         Tailwind styles
+├── main.jsx
+├── App.jsx
+├── index.css
 └── components/
-    ├── Fogbg.jsx          Vanta fog background
-    ├── InputShortener.jsx URL input & shorten button
-    └── LinkResult.jsx     Shortened link display & copy
+    ├── Fogbg.jsx
+    ├── InputShortener.jsx
+    └── LinkResult.jsx
 ```
 
 ## How It Works
 
-The app sends a `POST` request to `https://shrtr.top/api/v1/shorten` with the user's URL and displays the returned short link. No backend — everything runs client-side.
+Paste a URL → validate → `POST` to `https://shrtr.top/api/v1/shorten` → display short link → copy in one click. All client-side, no backend.
