@@ -7,7 +7,7 @@ const App = () => {
   const [inputValue, setInputValue] = useState("");
   const [submitted, setSubmitted] = useState(false);
   return (
-    <div className="flex flex-col items-center px-4">
+    <div className="flex h-dvh flex-col items-center justify-center overflow-hidden px-4 pb-24">
       <Toaster position="top-right" richColors />
 
       <InputShortener setInputValue={setInputValue} setSubmitted={setSubmitted} />

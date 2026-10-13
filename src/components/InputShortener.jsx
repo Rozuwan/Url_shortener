@@ -36,17 +36,18 @@ const InputShortener = ({ setInputValue, setSubmitted }) => {
   return (
     <>
       <FogBackground />
-      <div className="relative flex flex-col items-center mt-30 px-4">
+
+      <div className="relative flex flex-col items-center px-4 ">
         <h1 className="text-center">
           <span className="lato font-black text-8xl max-sm:text-5xl">SHORTY</span>
           <span className="font-black text-8xl max-sm:text-5xl text-orange-600">.</span>
         </h1>
-        <p className="inter font-extralight text-base sm:text-lg text-gray-400 tracking-wide mt-4">
+        <p className="inter font-light text-base sm:text-lg text-gray-400 tracking-wide mt-4">
           Shorten. Share. Simplify.
         </p>
         
-        <div className="mt-16 flex w-full justify-center max-sm:mt-10 ">
-          <div className="flex items-center gap-12 rounded-full border-2 border-black bg-white px-5 py-2 shadow-sm w-full max-w-2xl  max-sm:rounded-2xl max-sm:flex-col max-sm:px-5 max-sm:py-2">
+        <div className="flex w-screen justify-center px-3 max-sm:mt-10">
+          <div className="mt-5 flex items-center gap-5 rounded-full border-2 border-black bg-white px-5 py-2 shadow-sm w-full max-w-2xl  max-sm:rounded-2xl max-sm:flex-col max-sm:px-5 max-sm:py-2" >
             <input
               type="text"
               placeholder="Paste your long URL..."

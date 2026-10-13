@@ -19,7 +19,7 @@ const LinkResult = ({ inputValue }) => {
           const data = await res.json();
           if (data && data.short_url) {
             setshortenLink(data.short_url);
-            toast.success("URL shortened successfully.");
+            toast.success("URL successfully shortened.");
           } else {
             toast.error("Failed to shorten URL. Please try again.");
           }
